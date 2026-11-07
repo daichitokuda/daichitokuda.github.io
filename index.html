@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#6742d5">
+    <title>Daichi Tokuda · Computer Architecture &amp; Memory Systems</title>
+    <meta name="description" content="Daichi Tokuda, a 1st year PhD student at the University of Tokyo. Research in computer architecture, DRAM, processing-in-memory, and efficient hardware systems.">
+    <link rel="canonical" href="https://daichitokuda.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Daichi Tokuda · Computer Architecture &amp; Memory Systems">
+    <meta property="og:description" content="Research in computer architecture, memory systems, and computing in DRAM at the University of Tokyo.">
+    <meta property="og:url" content="https://daichitokuda.github.io/">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner container">
+        <a class="brand" href="#top" aria-label="Daichi Tokuda, home">
+          <span class="brand-mark" aria-hidden="true">dt<span>.</span></span>
+          <span class="brand-name">Daichi Tokuda</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false">
+          <span>Menu</span><span class="menu-icon" aria-hidden="true"></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="#about" aria-current="location">Biography</a>
+          <a href="#news">News</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#background">Background</a>
+          <a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero container" id="about" aria-labelledby="name">
+        <div class="hero-copy">
+          <p class="eyebrow biography-label">Short Biography</p>
+          <h1 id="name">Daichi <em>Tokuda</em> <span class="name-ja" lang="ja">（篤田大知）</span></h1>
+          <p class="hero-affiliation">1st year PhD Student <span aria-hidden="true">/</span> The University of Tokyo</p>
+          <div class="intro-text">
+            <p>I am a <strong>1st year PhD student</strong> in the Department of Computer Science at the University of Tokyo, supervised by Prof. Shinya Takamaeda-Yamazaki. My research interests lie in <strong>computer architecture and system design</strong>, including DRAM, memory systems, and processing-in-memory; architectural modeling and design-space exploration; and energy-efficient and heterogeneous computer systems for machine learning. My first-author work has been accepted at top-tier conferences, including <strong>ISCA</strong> and <strong>ICS</strong>.</p>
+            <p>I received my Bachelor of Science in 2024 and Master of Information Science and Technology in September 2026, both from the University of Tokyo. From September 2024 to February 2025, I was an exchange student at ETH Zurich under the supervision of <a href="https://people.inf.ethz.ch/omutlu/">Prof. Onur Mutlu</a>. I continue to collaborate with the <a href="https://safari.ethz.ch/">SAFARI Research Group</a>.</p>
+          </div>
+          <div class="profile-links" aria-label="Profile links">
+            <a class="primary-link" href="https://scholar.google.com/citations?user=_X3yQbkAAAAJ">Google Scholar <span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/in/daichi-tokuda-3852b6328/">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="email-link">tokuda-daichi_at_is.s.u-tokyo.ac.jp</p>
+        </div>
+        <figure class="hero-portrait">
+          <div class="portrait-composition">
+            <span class="portrait-ring" aria-hidden="true"></span>
+            <span class="portrait-spark" aria-hidden="true">✳</span>
+            <div class="portrait-frame">
+              <img src="assets/daichi-tokuda.jpg" alt="Daichi Tokuda" width="1108" height="1477" fetchpriority="high">
+            </div>
+            <span class="portrait-square" aria-hidden="true"></span>
+          </div>
+          <figcaption><span aria-hidden="true">↳</span> Based in Tokyo, Japan</figcaption>
+        </figure>
+      </section>
+
+      <section class="news-section container" id="news" aria-labelledby="news-title">
+        <div class="section-heading"><h2 id="news-title">Recent News<span class="heading-dot">.</span></h2></div>
+        <ul class="news-list">
+          <li><time datetime="2026-11">Nov 2026</time><p>Presented <strong>Entropt</strong> as a poster at <strong>MICRO SRC 2026</strong>!</p></li>
+          <li><time datetime="2026-09">Sep 2026</time><p>Gave an invited talk on processing-using-DRAM at <strong>FIT 2026</strong>!</p></li>
+          <li><time datetime="2026-08">Aug 2026</time><p>Joined the <strong>xSIG 2026</strong> 10th Anniversary Panel as an invited panelist!</p></li>
+          <li><time datetime="2026-07">Jul 2026</time><p>Presented <a href="https://doi.org/10.1145/3797905.3800550">Clutch</a> at <strong>ICS 2026</strong> and gave a talk at the co-located <strong>MCCSys</strong> workshop!</p></li>
+          <li><time datetime="2026-06">Jun 2026</time><p>Presented <a href="https://doi.org/10.1109/ISCA66397.2026.00040">PuDGhost</a> at <strong>ISCA 2026</strong> and gave a talk at the co-located <strong>MCCSys</strong> workshop!</p></li>
+          <li><time datetime="2026-03">Mar 2026</time><p><a href="https://doi.org/10.1109/ISCA66397.2026.00040">PuDGhost</a> was accepted at <strong>ISCA 2026</strong>!</p></li>
+          <li><time datetime="2026-02">Feb 2026</time><p><a href="https://doi.org/10.1145/3797905.3800550">Clutch</a> was accepted at <strong>ICS 2026</strong>!</p></li>
+          <li><time datetime="2025-09">Sep 2025</time><p>Gave an invited talk on hardware/algorithm co-design for decision trees at <strong>FIT 2025</strong>!</p></li>
+          <li><time datetime="2025">2025</time><p><a href="https://doi.org/10.1109/LCA.2025.3585312">PUDTune</a> was accepted by <strong>IEEE Computer Architecture Letters (CAL)</strong>!</p></li>
+        </ul>
+      </section>
+
+      <section class="research-section" id="research" aria-labelledby="research-title">
+        <div class="container">
+          <div class="section-heading research-heading">
+            <div><p class="eyebrow">Computer Architecture and System Design</p><h2 id="research-title">Research Interests</h2></div>
+          </div>
+          <ul class="research-grid">
+            <li class="research-topic">DRAM, memory systems, and processing-in-memory</li>
+            <li class="research-topic">Architectural modeling and design-space exploration</li>
+            <li class="research-topic">Energy-efficient and heterogeneous computer systems for machine learning</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="publications-section container section-space" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">Research output</p><h2 id="publications-title">Selected Publications<span class="heading-dot">.</span></h2></div>
+          <a class="text-link" href="https://scholar.google.com/citations?user=_X3yQbkAAAAJ">View on Google Scholar <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="publication-toolbar" hidden>
+          <div class="publication-filters" role="group" aria-label="Filter publications by year">
+            <button type="button" data-year="all" aria-pressed="true">All years</button>
+            <button type="button" data-year="2026" aria-pressed="false">2026</button>
+            <button type="button" data-year="2025" aria-pressed="false">2025</button>
+            <button type="button" data-year="2024" aria-pressed="false">2024</button>
+          </div>
+          <p class="publication-count" aria-live="polite" aria-atomic="true">7 publications</p>
+        </div>
+
+        <div class="publication-year" data-publication-year="2026">
+          <h3 class="year-label">2026</h3>
+          <div class="publication-list">
+            <article class="publication">
+              <div class="publication-meta"><span class="venue-tag venue-tag-green">MICRO SRC 2026</span><span>Poster</span></div>
+              <h4>Entropt: Interference-Aware Pattern Optimization for Unlocking Entropy in DRAM</h4>
+              <p class="authors"><strong>Daichi Tokuda</strong> and Shinya Takamaeda-Yamazaki</p>
+              <p class="venue-name">59th IEEE/ACM International Symposium on Microarchitecture · ACM Student Research Competition (<strong>MICRO SRC 2026</strong>)</p>
+            </article>
+            <article class="publication">
+              <div class="publication-meta"><span class="venue-tag">ICS 2026</span><span>Conference</span></div>
+              <h4><a href="https://doi.org/10.1145/3797905.3800550">Clutch: High Performance Vector-Scalar Comparison using DRAM via Chunked Temporal Coding</a></h4>
+              <p class="authors"><strong>Daichi Tokuda</strong>, Tatsuya Kubo, Ismail Emir Yuksel, Ataberk Olgun, Haocong Luo, Tomoya Nagatani, Geraldo F. Oliveira Jr., Abdullah Giray Yağlıkçı, Mohammad Sadrosadati, Onur Mutlu, and Shinya Takamaeda-Yamazaki</p>
+              <p class="venue-name">International Conference on Supercomputing (<strong>ICS 2026</strong>)</p>
+              <div class="paper-links"><a href="https://doi.org/10.1145/3797905.3800550">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2606.22812">arXiv <span aria-hidden="true">↗</span></a><a href="https://people.inf.ethz.ch/omutlu/pub/Clutch-ics26-talk.pdf">Slides <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="publication">
+              <div class="publication-meta"><span class="venue-tag">ISCA 2026</span><span>Conference</span></div>
+              <h4><a href="https://doi.org/10.1109/ISCA66397.2026.00040">PuDGhost: Experimental Analysis of Computation Result Corruption in Processing-using-DRAM Operations on Real DRAM Chips and Implications for Future Systems</a></h4>
+              <p class="authors"><strong>Daichi Tokuda</strong>, Ismail Emir Yuksel, Tatsuya Kubo, Ataberk Olgun, Haocong Luo, Nisa Bostanci, Jikun Wang, Abdullah Giray Yağlıkçı, Shinya Takamaeda-Yamazaki, and Onur Mutlu</p>
+              <p class="venue-name">53rd Annual International Symposium on Computer Architecture (<strong>ISCA 2026</strong>)</p>
+              <div class="paper-links"><a href="https://doi.org/10.1109/ISCA66397.2026.00040">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2606.19119">arXiv <span aria-hidden="true">↗</span></a><a href="https://people.inf.ethz.ch/omutlu/pub/PuDGhost-isca26-talk.pdf">Slides <span aria-hidden="true">↗</span></a></div>
+            </article>
+          </div>
+        </div>
+
+        <div class="publication-year" data-publication-year="2025">
+          <h3 class="year-label">2025</h3>
+          <div class="publication-list">
+            <article class="publication">
+              <div class="publication-meta"><span class="venue-tag">IEEE CAL</span><span>Journal</span></div>
+              <h4><a href="https://doi.org/10.1109/LCA.2025.3585312">PUDTune: Multi-Level Charging for High-Precision Calibration in Processing-Using-DRAM</a></h4>
+              <p class="authors">Tatsuya Kubo, <strong>Daichi Tokuda</strong>, Lei Qu, Ting Cao, and Shinya Takamaeda-Yamazaki</p>
+              <p class="venue-name">IEEE Computer Architecture Letters (<strong>CAL</strong>)</p>
+              <div class="paper-links"><a href="https://doi.org/10.1109/LCA.2025.3585312">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2505.05266">arXiv <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="publication">
+              <div class="publication-meta"><span class="venue-tag venue-tag-green">arXiv</span><span>Preprint</span></div>
+              <h4><a href="https://arxiv.org/abs/2503.23817">MVDRAM: Enabling GeMV Execution in Unmodified DRAM for Low-Bit LLM Acceleration</a></h4>
+              <p class="authors">Tatsuya Kubo, <strong>Daichi Tokuda</strong>, Tomoya Nagatani, Masayuki Usui, Lei Qu, Ting Cao, and Shinya Takamaeda-Yamazaki</p>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2503.23817">arXiv <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="publication">
+              <div class="publication-meta"><span class="venue-tag">ACM TRETS</span><span>Journal</span></div>
+              <h4><a href="https://doi.org/10.1145/3706114">DF-BETA: An FPGA-based Memory Locality Aware Decision Forest Accelerator via Bit-Level Early Termination</a></h4>
+              <p class="authors"><strong>Daichi Tokuda</strong> and Shinya Takamaeda-Yamazaki</p>
+              <p class="venue-name">ACM Transactions on Reconfigurable Technology and Systems (<strong>ACM TRETS</strong>) · Presented at <strong>FPT 2024</strong></p>
+              <div class="paper-links"><a href="https://doi.org/10.1145/3706114">Paper <span aria-hidden="true">↗</span></a></div>
+            </article>
+          </div>
+        </div>
+
+        <div class="publication-year" data-publication-year="2024">
+          <h3 class="year-label">2024</h3>
+          <div class="publication-list">
+            <article class="publication">
+              <div class="publication-meta"><span class="venue-tag venue-tag-green">MLNCP 2024</span><span>Workshop</span></div>
+              <h4><a href="https://openreview.net/pdf?id=5b4sUxqIqp">Bulk Bitwise Accumulation in Commercial DRAM</a></h4>
+              <p class="authors">Tatsuya Kubo, Masayuki Usui, Tomoya Nagatani, <strong>Daichi Tokuda</strong>, Lei Qu, Ting Cao, and Shinya Takamaeda-Yamazaki</p>
+              <p class="venue-name">NeurIPS 2024 Workshop on Machine Learning with New Compute Paradigms (<strong>MLNCP 2024</strong>)</p>
+              <div class="paper-links"><a href="https://openreview.net/pdf?id=5b4sUxqIqp">Paper <span aria-hidden="true">↗</span></a></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="background-section section-space" id="background" aria-labelledby="background-title">
+        <div class="container">
+          <div class="section-heading"><div><p class="eyebrow">Background</p><h2 id="background-title">Along the way<span class="heading-dot">.</span></h2></div></div>
+          <div class="background-grid">
+            <div class="education-column">
+              <h3 class="subsection-title">Education</h3>
+              <ol class="education-list">
+                <li>
+                  <p class="entry-date">Present</p>
+                  <h4>The University of Tokyo</h4>
+                  <p>Ph.D. student in Computer Science</p>
+                  <p class="entry-detail">Graduate School of Information Science and Technology</p>
+                  <p class="entry-advisor">Advisor: Prof. Shinya Takamaeda-Yamazaki</p>
+                </li>
+                <li>
+                  <p class="entry-date">Apr 2024 — Sep 2026</p>
+                  <h4>The University of Tokyo</h4>
+                  <p>Master of Information Science and Technology</p>
+                  <p class="entry-detail">Department of Computer Science, Graduate School of Information Science and Technology</p>
+                  <p class="entry-advisor">Advisor: Prof. Shinya Takamaeda-Yamazaki</p>
+                </li>
+                <li>
+                  <p class="entry-date">Sep 2024 — Feb 2025</p>
+                  <h4>ETH Zurich</h4>
+                  <p>Exchange student</p>
+                  <p class="entry-detail">Department of Information Technology and Electrical Engineering</p>
+                  <p class="entry-advisor">Advisor: Prof. Onur Mutlu</p>
+                </li>
+                <li>
+                  <p class="entry-date">Apr 2020 — Mar 2024</p>
+                  <h4>The University of Tokyo</h4>
+                  <p>Bachelor of Science</p>
+                  <p class="entry-detail">Department of Information Science, Faculty of Science</p>
+                  <p class="entry-advisor">Advisor: Prof. Shinya Takamaeda-Yamazaki</p>
+                </li>
+              </ol>
+              <div class="teaching-block">
+                <h3 class="subsection-title">Teaching</h3>
+                <p class="entry-date">Apr — Sep 2024 · The University of Tokyo</p>
+                <h4>Teaching Assistant, Hardware Lab</h4>
+                <p class="entry-detail">Logic circuit design and FPGA implementation with SystemVerilog and Vivado for third-year undergraduates.</p>
+              </div>
+            </div>
+            <div class="recognition-column">
+              <h3 class="subsection-title">Funding &amp; fellowships</h3>
+              <ul class="funding-list">
+                <li><p class="entry-date">Sep 2027 — Aug 2029 <span class="upcoming-label">Upcoming</span></p><h4><a href="https://funaifoundation.jp/scholarship/en/">Funai Overseas Scholarship <span aria-hidden="true">↗</span></a></h4><p class="entry-detail">The Funai Foundation for Information Technology</p></li>
+                <li><p class="entry-date">From Apr 2027 <span class="upcoming-label">Upcoming</span></p><h4>JSPS Research Fellowship (DC1)</h4><p class="entry-detail">Japan Society for the Promotion of Science</p></li>
+                <li><p class="entry-date">From Oct 2026</p><h4>JST ACT-X</h4><p class="entry-detail">Japan Science and Technology Agency</p></li>
+                <li><p class="entry-date">From Oct 2026</p><h4>JST BOOST NAIS Fellowship</h4><p class="entry-detail">Japan Science and Technology Agency</p></li>
+              </ul>
+              <div class="toolkit-block">
+                <h3 class="subsection-title">Research toolkit</h3>
+                <p>From experiments on real memory chips to FPGA prototypes and systems software.</p>
+                <ul class="skill-tags" aria-label="Technical skills"><li>SystemVerilog / Verilog</li><li>Vivado</li><li>C / C++</li><li>Python</li><li>IC design &amp; tapeout</li></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="awards-section container section-space" id="recognition" aria-labelledby="recognition-title">
+          <div class="section-heading"><div><p class="eyebrow">Recognition</p><h2 id="recognition-title">Awards &amp; invited talks<span class="heading-dot">.</span></h2></div></div>
+        <ul class="recognition-list">
+          <li><p class="entry-date">Sep 2026</p><div><span class="recognition-type">Invited talk</span><h3>Top Conference Session · FIT 2026</h3><p>“Interference from Non-Operand Data in Processing-using-DRAM”</p></div></li>
+          <li><p class="entry-date">Aug 2026</p><div><span class="recognition-type">Invited panelist</span><h3>xSIG 10th Anniversary Panel</h3><p>“When Research Takes Flight: Perspectives from Recent Top-Conference Authors”</p></div></li>
+          <li><p class="entry-date">Mar 2026</p><div><span class="recognition-type recognition-type-award">Award</span><h3>Outstanding Young Researcher Presentation Award</h3><p>IEICE Technical Committee on Computer Systems (CPSY), SWoPP 2025 · One of 2 recipients among 38 presentations.</p></div></li>
+          <li><p class="entry-date">Sep 2025</p><div><span class="recognition-type">Invited talk</span><h3>Top Conference Session · FIT 2025</h3><p>“Hardware/Algorithm Co-design for Gradient Boosting Decision Trees via Bit-Level Early-Termination for Embedded Systems”</p></div></li>
+          <li><p class="entry-date">Aug 2024</p><div><span class="recognition-type recognition-type-award">Award</span><h3>Outstanding Research Award · xSIG 2024</h3><p>Hardware/algorithm co-design for gradient boosting decision trees · One of 3 awards among 26 submissions.</p></div></li>
+        </ul>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-inner">
+          <div><h2 id="contact-title">Contact</h2><p class="contact-email">tokuda-daichi_at_is.s.u-tokyo.ac.jp</p></div>
+          <div class="contact-links"><a href="https://scholar.google.com/citations?user=_X3yQbkAAAAJ">Google Scholar <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/daichi-tokuda-3852b6328/">LinkedIn <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container"><p>© <span id="copyright-year">2026</span> Daichi Tokuda</p><p>Last updated November 2026</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>
+  </body>
+</html>
