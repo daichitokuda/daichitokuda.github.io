@@ -48,3 +48,26 @@ python3 -m http.server 8000 --bind 127.0.0.1
 GitHubに反映後、リポジトリの **Settings → Pages** で **Deploy from a branch → main → / (root)** を選択すると、この構成のまま配信できます。
 
 想定URL: <https://daichitokuda.github.io/>
+
+## Google Search Console の所有権確認
+
+URLプレフィックス `https://daichitokuda.github.io/` の確認ファイルは、`index.html` と同じ階層の `google3482bb5131d8e681.html` に配置しています。
+
+1. このフォルダで、確認ファイルを GitHub の `main` ブランチへ反映します。
+
+   ```sh
+   git add google3482bb5131d8e681.html README.md
+   git commit -m "Add Google Search Console verification file"
+   git push origin main
+   ```
+
+2. GitHub の **Actions** で GitHub Pages の公開処理が成功したことを確認します。Pages を未設定の場合は、上記の **Settings → Pages** の設定を行います。
+3. [公開された確認ファイル](https://daichitokuda.github.io/google3482bb5131d8e681.html)をブラウザで開き、次の文字列が表示されることを確認します。
+
+   ```text
+   google-site-verification: google3482bb5131d8e681.html
+   ```
+
+4. Google Search Console の対象プロパティの所有権確認画面へ戻り、HTMLファイル方式の **確認** を押します。
+
+Google は確認ファイルの名前と内容をそのまま保つことを求めています。確認後もファイルを公開したままにしてください。[Google の公式手順](https://support.google.com/webmasters/answer/9008080#html_verification)
